@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.covid19{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #2C296D;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a1{
+    width:35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a2{
+    width: 46%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.a3{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.a4{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.a5{
+    color: #ECB401;
+}
+.head2{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.cont1{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+ }
+ .img{
+    width:21%;
+    height:60px;
+}
+.img{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 10px;
+    align-items: center;
+}
+.HS{
+    width: 10%;
+    height: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.products{
+    width: 21%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+.products2{
+    width: 45%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    line-height: 25px;
+}
+.cv{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.price-rage2{
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.price-rage1{
+    width: 60%;
+    height: 2px;
+    background-color: gray;
+    /* gap: 100px; */
+
+}
+.price-rage{
+    width: 50%;
+    display: flex;
+    gap: 15px;
+}
+.line-1{
+    width: 50%;
+    height: 5px;
+    background-color: #96AE00;
+    gap: 25px;
+    justify-content: space-evenly;
+
+}
+.line-2{
+ width: 50%;
+ height: 15%;
+ background-color: aqua;
+ font-family: var(--tp-ff-heading);
+ font-weight: 700;
+ font-size: 12px;
+ line-height: 15px;
+ text-transform: uppercase;
+ background-color: #96AE00;
+ color: white;
+ border-radius: 30px;
+ display: block;
+ padding: 10px;
+ text-align: center;
+ }
+ .from1{
+    
+ }
+ .form-check{
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+    margin-bottom: .120rem;
+    gap: 15px;
+ }

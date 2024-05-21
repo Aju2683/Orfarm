@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&family=Macondo&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Macondo&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Macondo&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Macondo&family=Permanent+Marker&family=Roboto&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Assets/Css/fiveth.css" />
+  </head>
+  <body>
+    <!-- top navbar -->
+    <div class="covid">
+      <div class="covid1">
+        <p class="head">
+          Due to the <span class="cc"> COVID-19 </span>epidemic, orders may be
+          processed with a slight delay.
+        </p>
+        <div class="nav1">
+          <p class="nav2">Store Location</p>
+          <p class="nav3">Order Tracking</p>
+          <p class="nav4">FAQs</p>
+          <div class="lang">
+            <p>English</p>
+            <i class="fa-solid fa-angle-down"></i>
+            <p>USD</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
+      <!-- <p class="head">
+        Due to the <span class="cc"> COVID-19 </span>epidemic, orders may be
+        processed with a slight delay.
+      </p>
+      <div class="nav1">
+        <p class="q1">Store Location</p>
+        <p class="q2">Order Tracking</p>
+        <p class="q3">FAQs</p>
+      </div> -->
+    </div>
+    <!-- navbar -->
+    <div class="head2">
+      <i class="menu fa-solid fa-bars"></i>
+      <img src="./Assets/Img/logo 5.webp" alt="" />
+      <div class="cont1">
+        <p>Home <i class="arrow1 fa-solid fa-angle-down"></i></p>
+        <a href="./Pages/shop.html"><p>Shop <i class="arrow1 fa-solid fa-angle-down"></i></p></a>
+        <a href="./Pages/shop.html"><p>Blog<i class="arrow1 fa-solid fa-angle-down"></i></p></a>
+        <a href="./Pages/shop.html"><p>Pages<i class="arrow1 fa-solid fa-angle-down"></i></p></a>
+        <a href="./Pages/shop.html"><p>About Us</p></a>
+       <a href="./Pages/shop.html"> <p>Contact Us</p></a>
+      </div>
+      <div class="img">
+        <i class="i1 fa-solid fa-magnifying-glass"></i>
+        <div class="user">
+          <i onclick="click1()" class="i2 fa-solid fa-user"></i>
+          <div class="signup" id="signup">
+          <i onclick="close1()" class="close fa-solid fa-xmark"></i>
+           
+            <div class="blog">
+              <p>Signup</p>
+              <p>Login</p>
+              <p>SignOut</p>
+            </div>
+          </div>
+        </div>
+        <i class="i3 fa-solid fa-heart"></i>
+        <i class="i4 fa-solid fa-bag-shopping"></i>
+      </div>
+    </div>
+    <!-- home content -->
+    <div class="home-page">
+      <div class="home-sub">
+        <div class="home-con">
+          <h3 class="top">TOP SELLER IN THE WEEK</h3>
+          <h1 class="q1">Choose Your Healthy Lifestyle</h1>
+          <p class="q2">
+            Presentation matters. Our fresh Vietnamese vegetable rolls look good
+            and taste taste even better
+          </p>
+          <button class="but">SHOP NOW</button>
+        </div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="round1">
+        <div class="category">
+          <img class="c1" src="./Assets/Img/category-1.webp" alt="" />
+          <h5 class="v1">Vegetables</h5>
+          <p>07 items</p>
+        </div>
+      </div>
+      <div class="round1">
+        <div class="category">
+          <img class=c1 src="./Assets/Img/category-2.webp"">
+          <h5 class="v1">Fresh Fruits</h5>
+          <p>06 items</p>
+        </div>
+      </div>
+      <div class="round1">
+        <div class="category">
+          <img class="c1" src="./Assets/Img/category-3.webp" alt="" />
+          <h5 class="v1">Fruit Drink</h5>
+          <p>03 items</p>
+        </div>
+      </div>
+      <div class="round1">
+        <div class="category">
+          <img class="c1" src="./Assets/Img/category-4.webp" alt="" />
+          <h5 class="v1">Fresh Bakery</h5>
+          <p>07 items</p>
+        </div>
+      </div>
+      <div class="round1">
+        <div class="category">
+          <img class="c1" src="./Assets/Img/category-5.webp" alt="" />
+          <h5 class="v1">Biscuits Snack</h5>
+          <p>10 items</p>
+        </div>
+      </div>
+      <div class="round1">
+        <div class="category">
+          <img class="c1" src="./Assets/Img/category-6.png" alt="" />
+          <h5 class="v1">Fresh Meat</h5>
+          <p>03 items</p>
+        </div>
+      </div>
+      <div class="round1">
+        <div class="category">
+          <img class="c1" src="./Assets/Img/category-7.png" alt="" />
+          <h5 class="v1">Fresh Milk</h5>
+          <p>05 items</p>
+        </div>
+      </div>
+      <div class="round1">
+        <div class="category">
+          <img class="c1" src="./Assets/Img/category-8.webp" alt="" />
+          <h5 class="v1">Sea Foods</h5>
+          <p>02 items</p>
+        </div>
+      </div>
+    </div>
+    <!-- product details -->
+    <div class="SP">
+      <div class="SP1">
+        <h4 class="a1">~ Special Products ~</h4>
+        <h4 class="a2">Weekly Food Offer</h4>
+        <p class="a3">
+          The liber tempor cum soluta nobis eleifend option congue doming quod
+          mazim.
+        </p>
+      </div>
+      <div class="Product2">
+        <div class="row1">
+          <div class="row6">
+            <img class="Strawberry" src="./Assets/Img/Strawberry.webp" alt="" />
+            <h6 class="fs">Fresh Bakery,Strawberry</h6>
+            <p class="list">Banana,Beautiful Skin,Good For Health 1Kg</p>
+            <div class="star1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="rates">$19.00 <del class="discount">$20.00</del></h4>
+          </div>
+        </div>
+        <div class="row1">
+          <div class="row6">
+            <img class="Strawberry" src="./Assets/Img/d2.webp" alt="" />
+            <h6 class="fs">Fresh Bakery,Dragon Fruit</h6>
+            <p class="list">Fresh Organic Dragon Fruit Vietnam Number-1</p>
+            <div class="star1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="rates">$32.00</h4>
+          </div>
+        </div>
+        <div class="row1">
+          <div class="row6">
+            <img class="Strawberry" src="./Assets/Img/Lemon.webp" alt="" />
+            <h6 class="fs">Fresh Bakery,Lime Fruit</h6>
+            <p class="list">Fresh Organic Lemon Leaves USA 5kg</p>
+            <div class="star1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="rates">$31.00</h4>
+          </div>
+        </div>
+        <div class="row1">
+          <div class="row6">
+            <img class="Strawberry" src="./Assets/Img/Mustard.webp" alt="" />
+            <h6 class="fs">Fresh Bakery,Apricot Fruit</h6>
+            <p class="list">Fresh Organic Mustard Leaves Quaker Popped</p>
+            <div class="star1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="rates">$54.00</h4>
+          </div>
+        </div>
+        <div class="row1">
+          <div class="row6">
+            <img class="Strawberry" src="./Assets/Img/snack 1.webp" alt="" />
+            <h6 class="fs">Biscuits Snack,Rice Crisps</h6>
+            <p class="list">Quaker Popped Rice Crisps Snacks Chocolate</p>
+            <div class="star1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="rates">$33.00</h4>
+          </div>
+        </div>
+        <div class="row1">
+          <div class="row6">
+            <img class="Strawberry" src="./Assets/Img/snack 2.webp" alt="" />
+            <h6 class="fs">Biscuits Snack,Laffy Taffy</h6>
+            <p class="list">Laffy Taffy Laff Bites Gone Bananas – 4 Packs</p>
+            <div class="star1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="rates">$55.00</h4>
+          </div>
+        </div>
+        <!-- finishing 6 products  -->
+      </div>
+    </div>
+    <!-- special products1 closed -->
+    <div class="waterbottle1">
+      <div class="waterbottle2">
+        <img class="thumb" src="./Assets/Img/feature-thumb-1.webp" alt="" />
+      </div>
+      <div class="waterbottle3">
+        <div class="waterbottle4">
+          <h4 class="w1">~ The Best For Your ~</h4>
+          <h2 class="w2">
+            Organic Drinks<br />
+            <samp class="e1">Easy Healthy </samp>- Happy Life
+          </h2>
+          <p class="w4">
+            The liber tempor cum soluta nobis eleifend option congue <br />
+            doming quod mazim placerat facer possim assum.
+          </p>
+        </div>
+        <div class="table">
+          <div class="fruit1">
+            <h4 class="F1">FRESH FRUITS:</h4>
+            <p class="line1"></p>
+            <p class="F2">Apples,Berries & Cherries</p>
+          </div>
+          <div class="fruit3">
+            <h4 class="F1">INGREDIENT:</h4>
+            <p class="line1"></p>
+            <p class="F2">Energy,Protein,Sugars</p>
+          </div>
+          <div class="fruit2">
+            <h4 class="F1">EXPIRY DATE:</h4>
+            <p class="line1"></p>
+            <p class="F2">See on The Bottle Cap</p>
+          </div>
+          <div class="fruit4">
+            <h4 class="F1">BOOTLE SIZE:</h4>
+            <p class="line1"></p>
+            <p class="F2">500ml - 1000ml</p>
+          </div>
+          <button class="but">VIEWMORE</button>
+          <button class="but1">VIEWMORE</button>
+        </div>
+      </div>
+    </div>
+    <!-- waterbottel end -->
+    <div class="threerow1">
+      <div class="threerow2">
+        <div class="threerow3">
+          <div class="threerow4">
+            <h5 class="t1">TOP OFFERS</h5>
+            <h2 class="t2">
+              Eat Green <br />
+              Best For Family
+            </h2>
+            <p class="t2">Free Shipping 05km</p>
+          </div>
+        </div>
+      </div>
+      <!-- #product-2  -->
+      <div class="threerow22">
+        <div class="threerow3">
+          <div class="threerow4">
+            <h5 class="t2">WEEKEND DEALS</h5>
+            <h2 class="t2">
+              Fresh Food<br />
+              Restore Health
+            </h2>
+            <p class="t2">Top Quality Products</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- #product-3  -->
+      <div class="threerow23">
+        <div class="threerow3">
+          <div class="threerow4">
+            <h5 class="t1">TOP SELLER</h5>
+            <h2 class="t2">
+              Healthy<br />
+              Fresh Free Bread
+            </h2>
+            <p class="t2">Limited Time: Online Only!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Three row closed -->
+
+    <div class="SP">
+      <div class="SP2">
+        <h4 class="a1">~ Special Products ~</h4>
+        <h4 class="a2">Weekly Food Offer</h4>
+      </div>
+      <div class="SP3">
+        <p>All Products</p>
+        <p>Fruit Drink</p>
+        <p>Fresh Fruits</p>
+        <p>Vegetables</p>
+      </div>
+      <div class="Product2">
+        <div class="row1">
+          <div class="row6">
+            <img
+              class="Strawberry"
+              src="./Assets/Img/product-img-1 B.webp"
+              alt=""
+            />
+            <h6 class="fs">Vegetables,Onion</h6>
+            <p class="list">1kg purple onion</p>
+            <div class="star1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="rates">$18.00 <del class="discount">$20.00</del></h4>
+          </div>
+        </div>
+        <div class="row1">
+          <div class="row6">
+            <img class="Strawberry" src="./Assets/Img/Lemon.webp" alt="" />
+            <h6 class="fs">Vegetables,Lemon</h6>
+            <p class="list">Fresh And Sour Lemon Like An Old Lover</p>
+            <div class="star1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="rates">$22.00 <del class="discount">$25.00</del></h4>
+          </div>
+        </div>
+        <div class="row1">
+          <div class="row6">
+            <img class="Strawberry" src="./Assets/Img/vk.webp" alt="" />
+            <h6 class="fs">Vegetables,Kiwi</h6>
+            <p class="list">Fresh Organic Susu Cheap Tasty Tonic</p>
+            <div class="star1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="rates">$24.00 <del class="discount">$25.00</del></h4>
+          </div>
+        </div>
+        <div class="row1">
+          <div class="row6">
+            <img
+              class="Strawberry"
+              src="./Assets/Img/product-img-4 G.webp"
+              alt=""
+            />
+            <h6 class="fs">Vegetables,Ginger</h6>
+            <p class="list">Ginger Fresh,Whole,Organic - 250gram</p>
+            <div class="star1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="rates">$27.00 <del class="discount">30.00</del></h4>
+          </div>
+        </div>
+        <div class="row1">
+          <div class="row6">
+            <img
+              class="Strawberry"
+              src="./Assets/Img/product-img-5 G.webp"
+              alt=""
+            />
+            <h6 class="fs">Vegetables,Apricots</h6>
+            <p class="list">Guava Leaves From Trees Grown in South</p>
+            <div class="star1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="rates">$30.00 <del class="discount">35.00</del></h4>
+          </div>
+        </div>
+        <div class="row1">
+          <div class="row6">
+            <img
+              class="Strawberry"
+              src="./Assets/Img/product-img-6 B.webp"
+              alt=""
+            />
+            <h6 class="fs">Biscuits Snack,Laffy Taffy</h6>
+            <p class="list">Laffy Taffy Laff Bites Gone Bananas – 4 Packs</p>
+            <div class="star1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="rates">$10.00</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SP2 Closed Here -->
+    <div class="end">
+      <p class="end1">
+        Discover thousands of other quality products.
+        <samp class="end2">Shop All Products</samp>
+      </p>
+    </div>
+    <!-- End tag Closed -->
+    <div class="drinks">
+      <div class="sub-div">
+        <div class="contents">
+          <h4 class="dd">~ Deals of The Day ~</h4>
+          <h2 class="pd">Premium Drinks <br />Fresh Farm Product</h2>
+          <p class="pd2">
+            The liber tempor cum soluta nobis eleifend option congue
+            <br />doming quod mazim placerat facere possum assam going through
+          </p>
+          <h5 class="hp">HURRY UP! OFFER END IN:</h5>
+          <p>118DAYS 12HOUR 15MINUTE 30SECOND</p>
+          <div class="btn1">
+            <button class="btn">SHOP NOW</button>
+            <button class="btn2">VIEW MENU</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Drinks Closed -->
+    <div class="four-row">
+      <div class="four-row1">
+        <h5 class="f2">~ Read Our Blog ~</h5>
+        <h2 class="f3">Our Latest Post</h2>
+        <p class="f4">
+          The liber cum soluta nobis eleifend option congue doming quod mazim
+        </p>
+      </div>
+    </div>
+    <!-- fourth row closed -->
+    <div class="four-row2">
+      <div class="four-row3">
+        <img class="f5" src="./Assets/Img/lifestyle.webp" alt="" />
+        <div class="four-row4">
+          <h5 class="f6">
+            LIFESTYLE<samp class="f7">. ADMIN . SEP 15.2022</samp>
+          </h5>
+          <h3 class="f8">
+            Avocado Grilled Salmon,Rich in <br />
+            Nutrients For The Body
+          </h3>
+          <p class="f9">
+            These are the people who make your life <br />
+            easier. Egestas is tristique vestibulum...
+          </p>
+          <h5 class="f10">CONTINUE READING</h5>
+        </div>
+      </div>
+
+      <div class="four-row3">
+        <img class="f5" src="./Assets/Img/organics.webp" alt="" />
+        <div class="four-row4">
+          <h5 class="f6">
+            ORGANICS<samp class="f7">. ADMIN . AUG 15.2023</samp>
+          </h5>
+          <h3 class="f8">
+            The Best Great Benefits of Fresh<br />
+            Beef For Women's Health
+          </h3>
+          <p class="f9">
+            These are the people who make your life <br />
+            easier. Egestas is tristique vestibulum...
+          </p>
+          <h5 class="f10">CONTINUE READING</h5>
+        </div>
+      </div>
+
+      <div class="four-row3">
+        <img class="f5" src="./Assets/Img/organics2.webp" alt="" />
+        <div class="four-row4">
+          <h5 class="f6">
+            ORGANICS<samp class="f7">. ADMIN . SEP 15.2022</samp>
+          </h5>
+          <h3 class="f8">
+            Ways To Choose Fruits & Seafoods <br />
+            Good For Pregnancy
+          </h3>
+          <p class="f9">
+            These are the people who make your life <br />
+            easier. Egestas is tristique vestibulum...
+          </p>
+          <h5 class="f10">CONTINUE READING</h5>
+        </div>
+      </div>
+
+      <div class="four-row3">
+        <img class="f5" src="./Assets/Img/shopping.webp" alt="" />
+        <div class="four-row4">
+          <h5 class="f6">
+            SHOPPING<samp class="f7">. ADMIN . SEP 15.2022</samp>
+          </h5>
+          <h3 class="f8">
+            Summer Breakfast For The Healthy<br />
+            Morning With Tomatoes
+          </h3>
+          <p class="f9">
+            These are the people who make your life <br />
+            easier. Egestas is tristique vestibulum...
+          </p>
+          <h5 class="f10">CONTINUE READING</h5>
+        </div>
+      </div>
+    </div>
+    <!-- four2 closed here -->
+    <div class="home-last">
+      <div class="last1">
+        <div class="last2">
+          <i class="fa-solid fa-truck"></i>
+          <h5>FAST DELIVERY</h5>
+          <p class="l1">Across West & East India</p>
+        </div>
+        <div class="last2">
+          <i class="fa-solid fa-money-bill"></i>
+          <h5>SAFE PAYMENT</h5>
+          <p class="l1">100% Secure Payment</p>
+        </div>
+        <div class="last2">
+          <i class="fa-solid fa-percent"></i>
+          <h5>ONLINE DISCOUNT</h5>
+          <p class="l1">Add Multi-buy Discounts</p>
+        </div>
+        <div class="last2">
+          <i class="fa-solid fa-message"></i>
+          <h5>HELP CENTER</h5>
+          <p class="l1">Dedicated 24/7 Support</p>
+        </div>
+        <div class="last2">
+          <i class="fa-solid fa-clipboard"></i>
+          <h5>CURATED ITEMS</h5>
+          <p class="l1">From Handpicked Sellers</p>
+        </div>
+      </div>
+      <div class="line">
+        <p class="sub-line"></p>
+      </div>
+      <div class="lasst">
+        <div class="last4">
+          <div class="last5">
+            <h4>LET US HELP YOU</h4>
+            <p class="l1">
+              If you have any question, please <br />
+              contact us at: <samp class="l2">support@example.com</samp>
+            </p>
+
+            <div class="last6">
+              <p class="l1">Social Media:</p>
+              <div>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-skype"></i>
+              </div>
+            </div>
+          </div>
+          <div class="last5">
+            <h4>LOOKING FOR ORFARM?</h4>
+            <p class="l1">
+              68 St. Vicent Place, Glasgow, Greater <br />
+              Newyork NH2012, UK.
+            </p>
+            <p class="l1">
+              Monday – Friday: <samp class="l3">8:10 AM – 6:10 PM</samp>
+              <br />Saturday: <samp class="l3">10:10 AM – 06:10 PM</samp>
+              <br />Sunday: <samp class="l3">Close</samp>
+            </p>
+          </div>
+          <div class="last5">
+            <h4>HOT CATEGORIES</h4>
+            <div class="four">
+              <p>Fruits & Vegetables</p>
+              <p>Dairy Products</p>
+              <p>Package Foods</p>
+              <p>Beverage</p>
+              <p>Health & Wellness</p>
+            </div>
+          </div>
+          <div class="line2">
+            <p class="line3"></p>
+          </div>
+          <div class="last9">
+            <div class="last10">
+              <h4>OUR NEWSLETTER</h4>
+              <p>
+                Subscribe to the Orfarm mailing list to receive updates <br />on
+                new arrivals & other information.
+              </p>
+              <div class="bnt4 email">
+                <input type="Your Email Address" />
+                <button class="bnt">SUBSCRIBE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./Assets/Js/app.js"></script>
+  </body>
+</html>
