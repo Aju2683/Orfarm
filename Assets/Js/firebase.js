@@ -1,7 +1,8 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
-  
-  import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-auth.js";
-    
+import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-auth.js";
+import { getStorage, ref, uploadBytes } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-storage.js";
+import { getFirestore,addDoc,collection } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-firestore.js"; 
+
   const firebaseConfig = {
     apiKey: "AIzaSyAUT01TejAw7ATITIYwrcQAwO-P1ZVqXtc",
     authDomain: "orfarm-a252a.firebaseapp.com",
@@ -15,13 +16,16 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/fireba
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
+  const storage = getStorage();
+  const db = getFirestore(app);
+
 
   function  create() {
     let email=document.getElementById("email").value
     let password=document.getElementById("password").value
+    let file=document.getElementById("file").files[0]
     
 
-const auth = getAuth();
 createUserWithEmailAndPassword(auth, email, password)
   .then((userCredential) => {
     // Signed up 
@@ -35,7 +39,29 @@ createUserWithEmailAndPassword(auth, email, password)
     console.log("Invaild User");
     // ..
   });
-    
+  
+
+
+const storageRef = ref(storage, email);
+
+// 'file' comes from the Blob or File API
+uploadBytes(storageRef, file)
+.then((snapshot) => {
+  console.log('Uploaded a blob or file!');
+  console.log(snapshot);
+})
+  .catch((error)=>{  
+    console.log(error);
+  })
+  
+
+// Add a new document in collection "cities"
+addDoc(collection(db, "cities", "LA"), {
+  name: "Los Angeles",
+  state: "CA",
+  country: "USA"
+});
+
   }
 
 module.create=create    

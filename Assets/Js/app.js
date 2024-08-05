@@ -1,53 +1,57 @@
-function click1() {
-    let blogSection= document.getElementById("signup");
-    blogSection.style.display= "block"
-    console.log("hello");
-}
+// function click1() {
+//     let blogSection= document.getElementById("signup");
+//     blogSection.style.display= "block"
+//     console.log("hello");
+// }
 
 
-function close1() {
-    let blogSection= document.getElementById("signup");
-    blogSection.style.display="none"
-    console.log("khdk");
-}
+// function close1() {
+//     let blogSection= document.getElementById("signup");
+//     blogSection.style.display="none"
+//     console.log("khdk");
+// }
 
-  
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
-  
-  import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-auth.js";
-    
-  const firebaseConfig = {
-    apiKey: "AIzaSyAUT01TejAw7ATITIYwrcQAwO-P1ZVqXtc",
-    authDomain: "orfarm-a252a.firebaseapp.com",
-    projectId: "orfarm-a252a",
-    storageBucket: "orfarm-a252a.appspot.com",
-    messagingSenderId: "493341039947",
-    appId: "1:493341039947:web:85964f5b085de3ee389cce",
-    measurementId: "G-K65JCWV8QX"
-  };
 
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
+// for(let i= "aravind"; i >= "a";i--){
+//     if(i % 2 !==0) {
+//         console.log("revers name#" +i);
+//     }
+// }
+// forloop
+// let colour =["red,blue,violet"]
+// colour[4]="green"
 
-  function  create() {
-    let email=document.getElementById("email").value
-    let password=document.getElementById("password").value
-    
+// console.log(colour);
+// Array
+// Example 1: Simple while loop
+// let count = 1;
+// while (count <= 5) {
+//     console.log(count);
+//     count++;
+// }
 
-const auth = getAuth();
-createUserWithEmailAndPassword(auth, email, password)
-  .then((userCredential) => {
-    // Signed up 
-    const user = userCredential.user;
-    // ...
-  })
-  .catch((error) => {
-    const errorCode = error.code;
-    const errorMessage = error.message;
-    // ..
-  });
-    
-  }
+// Example 2: Using while loop to iterate until a condition is met
+// let total = 0;
+// while (total < 10) {
+//     total++;
+//     console.log("Current total:", total);
+// }
 
-  
+
+// let humans ={
+//    name:"Vicky",
+//    Age:25,
+//    gender:"male",
+//    address:{address2:"Coimbatore tamil nadu",
+//    address1:"chennai tamil nadu"},
+// }
+// console.log(humans.address.address1);
+
+// let favColors={
+//     ["red","white","blue"]
+
+// }
+// console.log(favColors.);
+
+
+ 

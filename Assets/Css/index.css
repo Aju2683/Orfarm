@@ -16,14 +16,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* font-size: small; */
     font-size: small;
 }
 .covid1{
     width: 80%;
     height: 50%;
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-evenly;
     align-items: center ;
 }
@@ -31,6 +29,10 @@ body{
     transform:scale(105%);
     transition: 0.5s all;
     color: #A6BA26;
+    text-decoration: none;
+}
+.cont1 a{
+    text-decoration: none;
 }
 .head{
     width:50%;
@@ -105,7 +107,8 @@ width: 90px;
 right: -33px;
 border-radius: 6px;
 top: 58px;
-background-color: #4D5574;
+background-color:#2B2A6C;
+color: #96AE00;
 }
 .close{
     display: flex;
@@ -120,6 +123,10 @@ background-color: #4D5574;
     justify-content: center;
     margin-top: 5px;
     gap: 5px;
+    color: #96AE00;
+}
+.s1{
+    color: #96AE00;
 }
 .i1{
     width: 40px;
@@ -184,7 +191,7 @@ background-color: #4D5574;
     align-items: center;
     justify-content: center;
     display: flex;
-    color: #505877;
+    color: #A6BA26;;
     font-weight: 600;
     border-radius: 50px;
     display: inline-block;
@@ -254,7 +261,6 @@ background-color: #4D5574;
     width: 100%;
     flex-direction: column;
     gap: 15px;
-    /* background-color: #96AE57; */
 }
 .SP1{
     width:35%;
@@ -631,7 +637,7 @@ transition:all,.3;
 }
 .four-row2{
     width:100%;
-    height: 85%;
+    height: 90%;
     display: flex;
     justify-content: space-evenly;
     align-items: start;
@@ -680,114 +686,10 @@ transition:all,.3;
 .f10{
     color: #A6BA26;
 }
-/* .home-last{
-    width: 100%;
-    height: 100%;
-    background-image: url(./footer-shape-1.svg);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction:column;
-    align-items: start;
-    gap: 100px;
-}
-.last1{
-    width: 100%;
-    height:30%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items:center;
-    color: white;
-}
-.last2{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 10px;
-   font-size: medium;
-}
-.l1{
-    color: #B0AFBA;
-    font-weight: 100;
-    font-size: small;
-}
-.lasst{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 
-}
-.last4{
-    width: 41%;
-    height: 85%;
-    display: flex;
-    flex-direction: column;
-   
-    margin-left: 13px;
-    padding: 5px 10px;
-}
-.last5{
-    width:60%;
-    height:50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: start;
-    gap: 20px;
-    color: white;
-}
-.last7{
-    width:47%;
-    height:84%;
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    justify-content: start;
-    gap:15px;
-    color: white;
-    margin-left: 13px;
-    padding: 5px 10px;
-}
-.last8{
-    width:43%;
-    height: 85%;
-    margin-left: 13px;
-    padding: 5px 10px;
-    display: flex;
-    flex-direction: column;
-    
-    justify-content:flex-start;
-    color: white;
-    gap: 15px;
-}
-.line{
-    width: 100%;
-    height: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.sub-line{
-    height: 2px;
-    width: 80%;
-    background-color: #4D5589;
-}
-.last9{
-    width:43%;
-    height: 85%;
-    margin-left: 13px;
-    padding: 5px 10px;
-    display: flex;
-    flex-direction: column;
-    
-    justify-content:flex-start;
-    color: white;
-    gap: 15px;
-} */
 .home-last{
     width: 100%;
-    height: 100%;
+    height: 85%;
     background-image: url(../Img/footer-shape-1.svg);
     background-repeat: no-repeat;
   
@@ -892,24 +794,44 @@ transition:all,.3;
     color: white;
     font-size: 15px;
 }
-.bnt4{
-    border-radius: 3px;
+.bnt4email{
+    position: relative;
+}
+.yed{
+    width: 70%;
     height: 50px;
-    width: 50%;
-    background-color: white;
-    border: none;
-    padding: 5px 150px 5px 50px;
+    
 }
 .bnt{
-    right: 2px;
+    width: 23%;
+    height: 50px;
     top: 50%;
+    left: 47%;
     transform: translateY(-50%);
-    color: #96AE0A;
-    
+    background-color: #96AE0A;
+    color: white;
+    position: absolute;
+}
+.conditions2{
+    width: 100%;
+    display: flex;
 }
 .menu{
     display: none;
     font-size: 20px;
+}
+.themepure{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    
+}
+.themepure1{
+    width: 100%;
+    background-color: #2B2A6C;
+    color: gray;
 }
 @media(max-width:1200px){
     .menu{
@@ -930,4 +852,7 @@ transition:all,.3;
         display: grid;
         grid-template-columns: repeat(4,1fr);
 }
+}
+.fs1{
+    text-decoration: none;
 }
